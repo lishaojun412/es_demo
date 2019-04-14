@@ -1,0 +1,11 @@
+server:
+  port: 40100
+spring:
+  application:
+    name: es_demo
+elasticsearch:
+  #多个结点中间用逗号分隔
+  hostlist: 127.0.0.1:9200
+test:
+  index: index_t1
+  type: corpus
